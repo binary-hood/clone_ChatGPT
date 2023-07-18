@@ -216,8 +216,73 @@ border-radius: 0 0 15px 15px !important;
 	cursor: pointer;
 	background-color: rgba(0,0,0,0.2);
 }
-@media(max-width: 576px){
-	.contacts_card{
-	margin-bottom: 15px !important;
-}
-}
+
+
+/* General styles for all screen sizes */
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+	body, html {
+	  font-size: 14px; /* Adjust the base font size for mobile devices to your liking */
+	}
+  
+	/* Additional styling for other elements */
+	.user_img, .user_img_msg {
+	  height: 50px;
+	  width: 50px;
+	}
+  
+	.msg_cotainer, .msg_cotainer_send {
+	  font-size: 14px; /* Adjust the font size for chat messages to your liking */
+	  padding: 8px;
+	}
+  
+	.msg_time, .msg_time_send {
+	  font-size: 9px; /* Adjust the font size for message timestamps to your liking*/
+	}
+  }
+  
+  /* Tablets and small desktops (768px to 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+	body, html {
+	  font-size: 16px; /* Adjust the base font size for tablets and small desktops to your liking*/
+	}
+  
+	/* Additional styling for other elements */
+	.user_img, .user_img_msg {
+	  height: 60px;
+	  width: 60px;
+	}
+  
+	.msg_cotainer, .msg_cotainer_send {
+	  font-size: 16px;
+	  padding: 10px;
+	}
+  
+	.msg_time, .msg_time_send {
+	  font-size: 10px;
+	}
+  }
+  
+  /* Larger desktops (992px and above) */
+  @media (min-width: 992px) {
+	body, html {
+	  font-size: 18px; /* Adjust the base font size for larger desktops to your liking */
+	}
+  
+	/* Additional styling for other elements as needed */
+	.user_img, .user_img_msg {
+	  height: 70px;
+	  width: 70px;
+	}
+  
+	.msg_cotainer, .msg_cotainer_send {
+	  font-size: 18px;
+	  padding: 12px;
+	}
+  
+	.msg_time, .msg_time_send {
+	  font-size: 12px;
+	}
+  }
+  
